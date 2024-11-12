@@ -1,0 +1,48 @@
+/* Estilo do rosto sorridente */
+#rosto {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 50%; /* Torna o rosto redondo */
+    position: relative;
+    margin: 20px auto;
+}
+
+/* Olhos do rosto */
+.olho {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+
+.olho.esquerdo {
+    left: 50px;
+}
+
+.olho.direito {
+    right: 50px;
+}
+
+/* Sorriso do rosto */
+#sorriso {
+    width: 100px;
+    height: 50px;
+    border-bottom: 5px solid black;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+/* Botão para mudar a cor */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
